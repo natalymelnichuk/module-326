@@ -13,9 +13,10 @@ main {
     height: 499px;
     width: 320px;
     background: #fff;
-    border-radius: 10px;
+    border-radius: 20px;
     box-sizing: border-box;
     padding: 16px 16px 0 16px;
+    box-shadow: 0px 25px 25px 0px rgba(0 0 0 / 4.77%);
 }
 
 .main-img {
@@ -37,6 +38,7 @@ img {
 
 .main-text h1 {
     font-weight: bold;
+    color: #1f314f;
     font-size: 22px;
     line-height: 120%;
     letter-spacing: 0px;
@@ -45,8 +47,13 @@ img {
 
 .main-text p {
     font-weight: normal;
+    color: #68778d;
     font-size: 15px;
     line-height: 140%;
     letter-spacing: 0.2px;
     margin: 0;
 }
+
+@media (max-width: 400px) {
+
+} 
