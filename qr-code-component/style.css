@@ -1,4 +1,4 @@
-body {
+/* body {
     margin: 0;
     height: 100vh;
     background-color: #d5e1ef;
@@ -52,8 +52,34 @@ img {
     line-height: 140%;
     letter-spacing: 0.2px;
     margin: 0;
+} */
+
+body {
+    background-color: #d5e1ef !important;
 }
 
-@media (max-width: 400px) {
+main {
+    font-family: "Outfit", sans-serif;
+    border: none !important;
+}
 
-} 
+.card {
+    height: 499px;
+    width: 320px;
+}
+
+.card-title-custom {
+    font-weight: bold !important;
+    color: #1f314f !important;
+    font-size: 22px !important;
+    line-height: 120% !important;
+    letter-spacing: 0px !important;
+}
+
+p {
+    font-weight: normal;
+    color: #68778d;
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+}
