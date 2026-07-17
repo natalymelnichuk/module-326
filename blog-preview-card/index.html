@@ -6,23 +6,27 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="./style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <title>Frontend Mentor | Blog preview card</title>
 </head>
-<body>
+<body class="m-0 vh-100 d-flex justify-content-center align-items-center">
   <main> 
-    <section class="main-img">
-      <img src="./assets/images/illustration-article.svg">
+    <section class="card p-4" style="--bs-card-border-width: 0px; --bs-card-border-radius: 20px">
+      <img src="./assets/images/illustration-article.svg" class="img-fluid rounded mb-4" style="--bs-border-radius: 10px">
+
+      <div class="card-body p-0 mb-4 d-flex flex-column align-items-start justify-content-between">
+        <span class="badge py-1 px-3" style="--bs-badge-border-radius: 0.25rem">Learning</span>
+        <h4 class="card-subtitle mt-0">Published 21 Dec 2023</h4>
+        <h2 class="card-title m-0">HTML & CSS foundations</h2>
+        <p class="card-text">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+      </div>
+
+      <div class="card-footer d-flex align-items-center justify-content-start p-0" style="background-color: white">
+        <img src="./assets/images/image-avatar.webp" class="rounded-circle">
+        <p class="author-name m-0">Greg Hooper</p>
+      </div>
     </section>
-    <section class="main-info">
-      <h3>Learning</h3>
-      <h4>Published 21 Dec 2023</h4>
-      <h2>HTML & CSS foundations</h2>
-      <p>These languages are the backbone of every website, defining structure, content, and presentation.</p>
-    </section>
-    <section class="profile-info">
-      <img src="./assets/images/image-avatar.webp">
-      <p>Greg Hooper</p>
-    </section>  
   </main>
 </body>
 </html>
